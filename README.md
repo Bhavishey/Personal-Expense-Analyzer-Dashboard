@@ -1,13 +1,14 @@
-# Personal Expense Analyzer
+# Personal Expense Analyzer Dashboard
 
-A dashboard built using Python, Pandas, and Streamlit to track expenses, analyze spending, and visualize trends.
+A Python project built with Streamlit and Pandas to track expenses, analyze spending habits, and visualize trends.
 
 ## Features
 - Add expenses
-- Category filters
-- Metrics dashboard
-- Pie chart
-- Monthly trend chart
+- View expense records
+- Total / highest / average metrics
+- Category bar chart
+- Pie chart distribution
+- Monthly spending trends
 - CSV export
 
 ## Tech Stack
@@ -20,4 +21,4 @@ A dashboard built using Python, Pandas, and Streamlit to track expenses, analyze
 
 ```bash
 pip install -r requirements.txt
-python -m streamlit run expense_tracker.py
+python -m streamlit run expense_analyser.py
